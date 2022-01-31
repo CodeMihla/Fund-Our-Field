@@ -49,6 +49,12 @@ footer{
     align-items: flex-end;
 }
 
+.container2-about{
+    height: 60vh;
+    border: solid rgb(180, 177, 177) 1px;
+    background-color:white;
+}
+
 div ul{
     display: flex;
     list-style: none;
