@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: green; 
+}
+
+.container{
+    display: flex;
+    /* background-color: white;  */
+    width: 80%;
+    /* height: 800px; */
+    /* z-index: 1000; */
+}
+
+.container .form{
+    width: 55%;
+    padding: 105px 20px;
+    background-color: rgb(106, 193, 243);
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;      
+}
+
+.container .contact{
+    position: absolute;
+    margin-left: 500px;
+    height: 65%;
+    width: 40%;
+    background-color: rgb(32, 124, 209);
+    color: cornsilk;
+    font-size: 15px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;   
+}
+
+ul{
+    list-style: none;
+}
+
+h5{
+    display: inline;
+}

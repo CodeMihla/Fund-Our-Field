@@ -1,0 +1,107 @@
+body{
+    
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+  
+}
+
+nav{
+    clear: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 70px; */
+    background-color:white;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 5px 5%;
+    bottom: 5%;
+  } 
+  
+  .clearfix{
+    overflow: auto;
+    zoom:1;
+  }
+
+  ul{
+    list-style:none;
+  
+  }
+  
+  a{
+    text-decoration:none;
+  }
+  .logo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-size: 22px;
+    text-decoration: overline rgb(95, 160, 135) solid 5px;
+  }
+
+
+  
+  
+  /* fixing the navigation bar to one position */
+  nav{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 95%;
+    height: 90px;
+  }
+  
+  nav,ul{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  nav ul li a{
+    margin: 30px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:gray;
+    font-weight: 700;
+  }
+  
+  nav ul li a:hover{
+    color: green;
+  }
+
+  form{
+      background-color: rgb(95, 160, 135) ;
+        border-radius: 5px;
+        margin: auto;
+        height: 700px;
+        width: 700px;
+        margin: 90px auto;
+    }
+
+
+
+  input{
+    margin: 10px 0;
+    border: 0;
+    border: transparent;
+    background: none;
+    border-bottom: white 2px solid;
+    line-height: 15px;
+    font-size: 18px;
+    color: antiquewhite;
+    /* border-bottom: rgb(58, 153, 129 solid); */
+}
+
+
+button{
+    font-size: 16px;
+    border-radius: 12px;
+    width: 130px;
+    height: 45px;
+    background-color: green;
+    color: whitesmoke;
+
+}
+
+
+

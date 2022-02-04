@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation page</title>
+
+    <link rel="stylesheet" href="donation.css">
+</head>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="donation.css">
+</head>
+
+<body>
+    <section>
+        <nav>
+            <!-- logo -->
+            <a href="#" class="logo">Fund Our Fields</a>
+
+            <ul>
+
+                <li><a class="active" href="#home" class="active">Home</a></li>
+
+                <li><a href="/about.html">About</a></li>
+
+                <li><a href="#fund">Fund a field</a></li>
+
+                <li><a href="/contact.html">Contacts Us</a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+
+            <!-- <h2>Litha Park Community Field</h2>
+        <img src="images/Litha (1).jfif" alt="Litha" width="25%">
+        <img src="images/Litha (2).jfif" alt="Litha" width="25%">
+        <img src="images/Litha (3).jfif" alt="Litha" width="25%"> -->
+
+
+            <form action="/action_page.php">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="John"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="Doe"><br>
+                <label for="email">email:</label><br>
+                <input type="text" id="email" name="email" value="email"><br><br>
+
+                <button form="donate">Donate</button>
+                <button form="equuipment">Equipment</button>
+
+                <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+                <button type="submit" form="nameform" value="Submit">Submit</button>
+                <h2>Checkboxes</h2>
+                <!-- <p>The <strong>input type="checkbox"</strong> defines a checkbox:</p> -->
+                <form action="/action_page.php">
+                    <input type="checkbox" id="give me anonymously" name="give me anonymously" value=>
+                    <label for="give me anonymously">give me anonymously</label><br>
+                    <input type="checkbox" id="add me to email list" name="add me to email list" value=>
+                    <label for="email me proof of payment">email me proof of payment</label><br>
+                    <input type="checkbox" id="email me proof of payment" name="email me proof of payment" value=>
+                    <label for="add me to email list">add me to email list</label><br>
+                    <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".
+                    </p>
+                    <button class="btn" type="submit" form="nameform" value="Submit">Submit</button>
+                </form>
+
+        </div>
+        <footer></footer>
+    </section>
+</body>
+
+</html>
