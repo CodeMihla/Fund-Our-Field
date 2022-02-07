@@ -69,28 +69,36 @@ nav{
     color: green;
   }
 
+  .container{
+    height:90vh;
+    padding-top: 150px;
+
+  }
+
   form{
       background-color: rgb(95, 160, 135) ;
-        border-radius: 5px;
-        margin: auto;
-        height: 700px;
-        width: 700px;
-        margin: 90px auto;
+      padding: 50px;
+      border-radius: 5px;
+      margin: auto;
+      height: 650px;
+      width: 700px;
+      justify-content: center;
     }
 
 
 
   input{
-    margin: 10px 0;
+    /* margin: 10px 0; */
     border: 0;
-    border: transparent;
+    /* border: transparent; */
     background: none;
     border-bottom: white 2px solid;
     line-height: 15px;
     font-size: 18px;
-    color: antiquewhite;
-    /* border-bottom: rgb(58, 153, 129 solid); */
-}
+    color: rgb(215, 242, 250);
+
+    /* border-bottom: rgb(58, 153, 129 solid);*/
+} 
 
 
 button{
@@ -102,6 +110,28 @@ button{
     color: whitesmoke;
 
 }
+
+.btn{
+  display: flex;
+  justify-content: center;
+  padding-top: 33px;
+}
+
+form legend, select, textarea{
+  margin: 10px 113px;
+}
+
+form select{
+  height: 38px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+
+}
+
+
+
+
 
 
 

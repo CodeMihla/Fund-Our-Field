@@ -40,38 +40,42 @@
 
         <div class="container">
 
-            <!-- <h2>Litha Park Community Field</h2>
-        <img src="images/Litha (1).jfif" alt="Litha" width="25%">
-        <img src="images/Litha (2).jfif" alt="Litha" width="25%">
-        <img src="images/Litha (3).jfif" alt="Litha" width="25%"> -->
+            <form action="">
+                <h2 style="text-align:center">Donation Form</h2>
+                <!-- <legend>Donor Name</legend> -->
+
+                <div style="display: flex; justify-content: space-evenly; margin-top: 45px;"">
+                    <input type="text" name="firstName" placeholder="First Name">
+                    <!-- <label for="firstName">First Name</label> -->
+                    <input type="text" name="lastName" placeholder="Last Name">
+                    <!-- <label for="lastName">Last Name</label> -->
+
+                </div>
+
+                <div class="info" style="display: flex; justify-content: space-evenly; margin-top: 45px;">
+                    <input type="text" name="company" placeholder="Company Name">
+                    <input type="text" name="email"  placeholder="Email Address">
+                </div>
+
+                <legend style="margin-top: 45px;">Donation Type</legend>
+                <select name="donate" id="donations">
+                    <option value="">Please Select</option>
+                    <option value="money">Money</option>
+                    <option value="items">Sport items/Equipment</option>
+                </select>
+
+                <legend style="margin-top: 55px;">Donation Notes</legend>
+                <textarea name="notes" id="notes" cols="60" rows="10"></textarea>
 
 
-            <form action="/action_page.php">
-                <label for="fname">First name:</label><br>
-                <input type="text" id="fname" name="fname" value="John"><br>
-                <label for="lname">Last name:</label><br>
-                <input type="text" id="lname" name="lname" value="Doe"><br>
-                <label for="email">email:</label><br>
-                <input type="text" id="email" name="email" value="email"><br><br>
+                <div class="btn"><button type="submit">Submit</button>
+                </div>
 
-                <button form="donate">Donate</button>
-                <button form="equuipment">Equipment</button>
+            </form>
 
-                <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
-                <button type="submit" form="nameform" value="Submit">Submit</button>
-                <h2>Checkboxes</h2>
-                <!-- <p>The <strong>input type="checkbox"</strong> defines a checkbox:</p> -->
-                <form action="/action_page.php">
-                    <input type="checkbox" id="give me anonymously" name="give me anonymously" value=>
-                    <label for="give me anonymously">give me anonymously</label><br>
-                    <input type="checkbox" id="add me to email list" name="add me to email list" value=>
-                    <label for="email me proof of payment">email me proof of payment</label><br>
-                    <input type="checkbox" id="email me proof of payment" name="email me proof of payment" value=>
-                    <label for="add me to email list">add me to email list</label><br>
-                    <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".
-                    </p>
-                    <button class="btn" type="submit" form="nameform" value="Submit">Submit</button>
-                </form>
+
+
+
 
         </div>
         <footer></footer>
