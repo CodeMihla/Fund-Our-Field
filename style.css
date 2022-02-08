@@ -45,7 +45,7 @@ section{
 }
 
 /* all */
-.home, .fund, .result, .donation{
+.home, .homepurpose, .searchresults .fund, .result, .donation{
     height: 100vh;
     width: 100%;
     border-bottom: solid green 0.2mm;
@@ -246,3 +246,31 @@ img{
     } */
 }
 
+
+.homepurpose{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+}
+
+.searchresults{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+}
+
+.textimgsearchresults{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 5%;
+    border: 150px;
+    background-color: rgb(176, 212, 161);
+}
+
+div img{
+    height: 200px;
+    width: 400px;
+}
