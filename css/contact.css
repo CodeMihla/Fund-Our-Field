@@ -19,7 +19,7 @@ body{
 
 .form{
     flex-basis: 60%;
-    background-color: rgba(227, 233, 231, 0.205);
+    background-color: rgba(227, 233, 231, 0.493);
     height: 70%;
     padding: 40px 60px;
     border-radius: 15px;
@@ -35,12 +35,11 @@ body{
 } */
 
 
-
 .contactUs{
     position: absolute;
     margin-left: 610px;
     width: 20%;
-    height: 50%;
+    height: 60%;
     padding: 40px;
     background-color: whitesmoke;
     border-radius: 15px;
@@ -75,22 +74,18 @@ body{
     border-bottom: rgb(58, 153, 129) 2px solid;
     line-height: 15px;
     font-size: 18px;
-    color: antiquewhite;
+    color: rgb(53, 110, 116);
     /* border-bottom: rgb(58, 153, 129 solid); */
 }
 
-.placeholder{
-
-    color: antiquewhite;
-
-
-}
 
 textarea{
     color: antiquewhite;
     font-size: 18px;
     border: rgb(58, 153, 129) 2px solid;
     background: none;
-
-
 }
+
+::placeholder{
+    color: rgb(121, 123, 124);
+  }

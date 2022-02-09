@@ -166,10 +166,9 @@ nav{
 
 
 
-/* fundpage */
-.fund{
-/* padding-top: 400px;     */
-}
+/* fundpage 
+.fund{ padding-top: 400px;     
+} */
 
 /* resultpage */
 .result{
@@ -286,3 +285,7 @@ div img{
     height: 200px;
     width: 400px;
 }
+
+footer{
+    height: 200px;
+ }

@@ -129,6 +129,10 @@ form select{
 
 }
 
+::placeholder{
+  color: aliceblue;
+}
+
 
 
 
