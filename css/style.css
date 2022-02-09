@@ -1,0 +1,291 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+  
+  }
+
+  p{
+      color:rgb(243, 237, 237);
+      text-align: justify;
+      padding-top: 25px;
+      padding: 40px;
+      font-size: 20px;
+      line-height: 36px;
+  }
+  
+  ul{
+    list-style:none;
+  
+  }
+  
+  a{
+    text-decoration:none;
+  }
+  
+  button a{
+
+    color:rgb(224, 222, 222)
+
+} 
+
+button{
+    font-size: 16px;
+    border-radius: 12px;
+    width: 130px;
+    height: 45px;
+    background-color: green;
+    color: whitesmoke;
+
+}
+
+
+section{
+    height: 100vh;
+}
+
+/* all */
+.home, .homepurpose, .fund, .result, .donation{
+    height: 100vh;
+    width: 100%;
+    border-bottom: solid green 0.2mm;
+
+}
+
+/* home */
+
+nav{
+    clear: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 70px; */
+    background-color:white;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 5px 5%;
+    bottom: 5%;
+  } 
+  
+  .clearfix{
+    overflow: auto;
+    zoom:1;
+  }
+
+  .logo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-size: 22px;
+    text-decoration: overline rgb(95, 160, 135) solid 5px;
+  }
+  
+  
+  /* fixing the navigation bar to one position */
+  nav{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 95%;
+    height: 90px;
+  }
+  
+  nav,ul{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  nav ul li a{
+    margin: 30px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:gray;
+    font-weight: 700;
+  }
+  
+  nav ul li a:hover{
+    color: green;
+  }
+  
+.home{
+    padding: 5px;
+}
+
+.home{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideContainer 20s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url("/images/field\ 1.jpg");
+
+}
+
+
+@keyframes slideContainer {
+
+    0%{
+        background-image: url("/images/field\ 1.jpg");
+
+    }
+
+    
+     25%{
+        background-image: url("/images/field\ 2.jpg");
+    }
+
+    
+    50%{
+        background-image: url("/images/field\ 3.jfif");
+    }
+
+
+
+}
+
+
+
+.quote{
+    /* border: solid darkgreen; */
+    background-color: rgba(47, 79, 50, 0.507);
+    top:0;
+    bottom: 0%;
+    height: 420px;
+    width: 700px;
+    border-radius: 5px;
+    /* position: relative; */
+    /* z-index: 9999; */
+    margin: auto 70px;
+    margin-top: 260px;
+
+}
+
+
+
+
+
+
+/* fundpage 
+.fund{ padding-top: 400px;     
+} */
+
+/* resultpage */
+.result{
+    padding-bottom: 10px;
+
+}
+
+
+
+/* donationpage */
+.donation{
+    padding-bottom: 10px;
+}
+
+.slider{
+    overflow: hidden;
+    /* z-index: 0; */
+
+}
+
+.slider figure{
+    position: relative;
+    width: 300%;
+    margin: 0;
+    left: 0;
+    animation: 30s slider infinite;
+}
+
+img{
+    max-width: 100%;
+}
+
+.slider figure img{
+    width: 33.3%;
+    float: left;
+}
+
+
+
+@keyframes slider{
+
+    0%{
+        left: 0%;
+    }
+
+    
+     20%{
+        left: 0%;
+    }
+
+    
+    25%{
+        left: -100%;
+    }
+
+    45%{
+        left: -100%;
+    } 
+
+    100%{
+        left: -200%;
+    }
+
+    /* 70%{
+        left: -200%;
+    }
+
+    75%{
+        left: -300%;
+    } */
+/* 
+    100%{
+        left: -400%;
+    } */
+}
+
+
+.homepurpose{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+}
+
+.search{
+    display: flex;
+    height: 20vh;
+    width: 100%;
+    border-bottom: solid green 0.2mm;
+    background-color: white;
+    align-content: center;
+}
+
+.searchheading{
+    height: 20vh;
+    width: 30%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+    
+
+.textimgsearchresults{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 2%;
+    border: 150px;
+    background-color: rgb(176, 212, 161);
+    justify-content: space-around;
+}
+
+div img{
+    height: 200px;
+    width: 400px;
+}
+
+footer{
+    height: 200px;
+ }
